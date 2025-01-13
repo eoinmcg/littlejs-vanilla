@@ -16,7 +16,7 @@ Ensure you have [degit](https://github.com/Rich-Harris/degit) installed:
 Then enter the following:
 
 ```bash
-    degit eoinmcg/littlejs-modules my-game
+    degit eoinmcg/littlejs-vanilla my-game
     cd my-game
     npm install
 ```
