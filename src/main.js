@@ -3,6 +3,8 @@
     - A simple starter project for LittleJS
     - Demos all the main engine features
 */
+import { medal_example } from './data/medals';
+import { sound_click } from './data/sfx';
 
 'use strict';
 
@@ -12,11 +14,7 @@ setShowSplashScreen(true);
 // fix texture bleeding by shrinking tile slightly
 tileFixBleedScale = .5;
 
-// sound effects
-const sound_click = new Sound([1,.5]);
-
 // medals
-const medal_example = new Medal(0, 'Example Medal', 'Welcome to LittleJS!');
 medalsInit('Hello World');
 
 // game variables
