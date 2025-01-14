@@ -39,7 +39,7 @@ This will create a minified version in dist/ plus a zip of your game:
 
 ## File structure
 
-```
+```bash
 .
 ├── dist
 ├── node_modules

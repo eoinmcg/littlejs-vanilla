@@ -12,7 +12,7 @@ console.log('\n');
 console.log('-----------------------'.yellow);
 console.log('\n');
 
-let src = `// [v${p.version}] ${new Date()} \n`;
+let src = `window.BUILD="[v${p.version}]-${new Date()}" \n`;
 
 let files = [
   'node_modules/littlejsengine/dist/littlejs.min.js',
@@ -40,7 +40,7 @@ fs.unlink('dist/index.js', () => {
   console.log(' - Removed dist/index.js'.yellow)
 });
 
-const zipName = p.name + '.zip';
+const zipName = 'game.zip';
 zipIt(zipName)
 .then(() => {
     fs.rename(zipName, `dist/${zipName}`, function (err) {

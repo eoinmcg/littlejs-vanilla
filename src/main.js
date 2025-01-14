@@ -8,8 +8,12 @@ import { sound_click } from './data/sfx';
 
 'use strict';
 
-// show the LittleJS splash screen
-setShowSplashScreen(true);
+// show the LittleJS splash screen in build version
+// BUILD var is injected during the build process
+// allows us to differentiate between dev and final versions
+if (window.BUILD) {
+  setShowSplashScreen(true);
+}
 
 // fix texture bleeding by shrinking tile slightly
 tileFixBleedScale = .5;
