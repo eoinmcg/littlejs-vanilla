@@ -55,4 +55,4 @@ This will create a minified version in dist/ plus a zip of your game:
 
 **public** tilesheets such as the example tiles.png are placed here.
 
-**src** all code goes here with main.js as the entry point. Feel free as folders and import files.
+**src** all code goes here with main.js as the entry point. Feel free to import files and add your own folder structure.

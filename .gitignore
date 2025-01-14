@@ -1,9 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
-/out-tsc
+dist
 
 # Runtime data
 pids
@@ -40,8 +38,7 @@ yarn-error.log*
 
 
 # Dependency directories
-node_modules/
-jspm_packages/
+node_modules
 
 # Optional npm cache directory
 .npm
