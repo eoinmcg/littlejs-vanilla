@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "npm run dev",
     "dev": "vite --host",
     "build": "vite build && node ./scripts/build.js",
     "preview": "vite preview"
